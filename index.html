@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Stay in Bloom</title>
+</head>
+<body>
+
+    <div id="directions-container">
+        <h1 class="title-style">Guess and Grow!</h1>
+        <p class="writing">Select letters to try and guess the word below. For every correct guess, you'll earn a part of a flower.</p>
+    </div>
+    
+    <div id="guess-container">
+        <h2 id="guesses-go-here"></h2>
+        <br><br>
+        <h2 id="randomWords"></h2>
+        <h3 id="hintList"></h3>
+        <div id="keyboard-container"></div>
+        <!-- <button id="a">A</button>
+        <button id="b">B</button>
+        <button id="c">C</button>
+        <button id="d">D</button>
+        <button id="e">E</button>
+        <button id="f">F</button>
+        <button id="g">G</button>
+        <button id="h">H</button>
+        <button id="i">I</button>
+        <button id="j">J</button>
+        <button id="k">K</button>
+        <button id="l">L</button>
+        <button id="m">M</button>
+        <button id="n">N</button>
+        <button id="o">O</button>
+        <button id="p">P</button>
+        <button id="q">Q</button>
+        <button id="r">R</button>
+        <button id="s">S</button>
+        <button id="t">T</button>
+        <button id="u">U</button>
+        <button id="v">V</button>
+        <button id="w">W</button>
+        <button id="x">X</button>
+        <button id="y">Y</button>
+        <button id="z">Z</button> -->
+        <p>Wrong guesses: <span id="wrongGuesses">0</span></p>
+    
+
+     
+        <div id="message"></div> 
+    </div>
+    
+    <div id="image-container">
+        <div id="incorrect-images"></div>
+    </div>
+
+    <div id="word-guess-container">
+        <h2 id="number-of-guesses-goes-here"></h2>
+        <button onclick="newGame()">New Game</button>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
